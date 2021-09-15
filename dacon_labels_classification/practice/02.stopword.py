@@ -67,13 +67,13 @@ def Count_noun_list(noun_list):
         print(" {:<14}".format(tag['tag']), end='\t')
         print("{}".format(tag['count']))
 
-        print("\n-----------------")
-        print("명사 총 {}개".format(len(tags)))
-        print("-----------------\n\n")
-        return tags
-
+        # print("\n-----------------")
+        # print("명사 총 {}개".format(len(tags)))
+        # print("-----------------\n\n")
+        # return tags
 
 # 함수 안에 함수 작동이 가능한가?
 # create_noun_list함수 안에 noun_list가 필요
+# 합성함수
 Count_noun_list(create_noun_list(SummaryOfResearch10))
 # 문제 nounlist의 각 요소의 빈도수를 한글자씩 떼서 분석 됨 -> for문으로 리스트 요소 꺼내지 말고 리스트 통째로 넣을 것
